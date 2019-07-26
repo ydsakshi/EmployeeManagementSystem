@@ -1,0 +1,13 @@
+package com.mockito.example;
+
+import javax.naming.spi.DirStateFactory.Result;
+
+import org.junit.runner.JUnitCore;
+
+public class TestRunner {
+
+	public static void main(String[] args) {
+		Result result=JUnitCore.runClasses(MathAppTest.class);
+		
+	}
+}

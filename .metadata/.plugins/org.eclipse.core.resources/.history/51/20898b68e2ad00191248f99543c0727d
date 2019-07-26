@@ -1,0 +1,47 @@
+package testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Ignore;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Test;
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.runner.RunWith;
+
+@RunWith(JUnitPlatform.class)
+@Disabled
+class MathsOpsTest {
+
+	private static MathsOps mathsOps=null;
+	@BeforeEach
+	public static void initEach() {
+		System.out.println("Hello");
+	}
+	@BeforeAll
+	public static void init() {
+		mathsOps=new MathsOps();
+		System.out.println("Hello from the other side");
+	}
+	@Test
+	@RepeatedTest(4)
+	void testAdd() {
+		String message="addMethod for integers";
+		Assertions.assertEquals(30,mathsOps.add(20, 10), message);
+	}
+	@Ignore
+	@Test
+	void testSubtract() {
+		String message="subtractMethod for integers";
+		Assertions.assertEquals(10,mathsOps.subtract(20, 10), message);
+	}
+	@Test
+	void testMul() {
+		String message="MultiplyMethod for integers";
+		Assertions.assertEquals(123, mathsOps.mul(12.3, 10), message);
+	}
+
+}

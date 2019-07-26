@@ -1,0 +1,30 @@
+package com.mockito.example;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.runners.MockitoJUnitRunner;
+
+@RunWith(MockitoJUnitRunner.class)
+class MathAppTest {
+
+	@InjectMock
+	MathApp app= new MathApp();
+	@Test
+	void testSetCalculationService() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testAdd() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSub() {
+		fail("Not yet implemented");
+	}
+
+}

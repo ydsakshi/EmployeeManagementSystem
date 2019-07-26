@@ -1,0 +1,29 @@
+package testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class MathsOpsTest {
+
+	@Test
+	void testAdd() {
+		MathsOps mathsOps=new MathsOps();
+		String message="addMethod for integers";
+		Assertions.assertEquals(30,mathsOps.add(20, 10), message);
+	}
+	@Test
+	void testAdd() {
+		MathsOps mathsOps=new MathsOps();
+		String message="addMethod for integers";
+		Assertions.assertEquals(30,mathsOps.add(20, 10), message);
+	}
+	@Test
+	void testAdd() {
+		MathsOps mathsOps=new MathsOps();
+		String message="addMethod for integers";
+		Assertions.assertEquals(30,mathsOps.add(20, 10), message);
+	}
+
+}

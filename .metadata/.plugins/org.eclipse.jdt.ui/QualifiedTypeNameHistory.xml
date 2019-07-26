@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="testing.MathsOps"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+<fullyQualifiedTypeName name="org.junit.platform.runner.JUnitPlatform"/>
+<fullyQualifiedTypeName name="testing.MathsOpsTest"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.RepeatedTest"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.mockito.runners.MockitoJUnitRunner"/>
+<fullyQualifiedTypeName name="com.mockito.example.MathApp"/>
+<fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
+<fullyQualifiedTypeName name="com.mockito.example.CalculationService"/>
+<fullyQualifiedTypeName name="org.mockito.Mock"/>
+<fullyQualifiedTypeName name="org.mockito.junit.MockitoJUnit"/>
+<fullyQualifiedTypeName name="org.mockito.internal.util.reflection.Whitebox"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+<fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+<fullyQualifiedTypeName name="com.mockito.example.MathAppTest"/>
+<fullyQualifiedTypeName name="org.junit.platform.launcher.listeners.TestExecutionSummary.Failure"/>
+<fullyQualifiedTypeName name="org.junit.runner.Result"/>
+<fullyQualifiedTypeName name="org.junit.runner.JUnitCore"/>
+<fullyQualifiedTypeName name="org.junit.runner.notification.Failure"/>
+</qualifiedTypeNameHistroy>

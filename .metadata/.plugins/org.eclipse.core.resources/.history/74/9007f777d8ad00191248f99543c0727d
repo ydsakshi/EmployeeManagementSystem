@@ -1,0 +1,34 @@
+package testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+class MathsOpsTest {
+
+	@BeforeAll
+	public void init() {
+		System.out.println("Hello from the other side");
+	}
+	@Test
+	void testAdd() {
+		MathsOps mathsOps=new MathsOps();
+		String message="addMethod for integers";
+		Assertions.assertEquals(30,mathsOps.add(20, 10), message);
+	}
+	@Test
+	void testSubtract() {
+		MathsOps mathsOps=new MathsOps();
+		String message="subtractMethod for integers";
+		Assertions.assertEquals(10,mathsOps.subtract(20, 10), message);
+	}
+	@Test
+	void testMul() {
+		MathsOps mathsOps=new MathsOps();
+		String message="MultiplyMethod for integers";
+		Assertions.assertEquals(200,mathsOps.add(20, 10), message);
+	}
+
+}

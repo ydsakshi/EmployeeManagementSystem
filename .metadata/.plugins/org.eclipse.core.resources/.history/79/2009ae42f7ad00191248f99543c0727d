@@ -1,0 +1,40 @@
+package com.mockito.example;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import static org.mockito.Mockito.*; 
+
+@RunWith(MockitoJUnitRunner.class)
+class MathAppTest {
+
+	@InjectMocks
+	MathApp app= new MathApp();
+	
+	@Mock
+	CalculationService service;
+	
+	@Test
+	void testSetCalculationService() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testAdd() {
+		
+		when(service.add(10, 20)).thenReturn(30);
+		Assertions.assertEquals(app.add(10, 20),30);
+	}
+
+	@Test
+	void testSub() {
+		when(service.sub(10, 20)).thenReturn(-10);
+		Assertions.assertEquals(app.add(10, 20),-10);
+	}
+
+}
